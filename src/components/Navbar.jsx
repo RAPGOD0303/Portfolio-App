@@ -22,7 +22,7 @@ export default function Navbar() {
                             </li>
 
                              <li>
-                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="">Skills</a>
+                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="#skills">Skills</a>
                             </li>
 
                              <li>
@@ -30,11 +30,11 @@ export default function Navbar() {
                             </li>
 
                              <li>
-                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="">Projects</a>
+                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="#projects">Projects</a>
                             </li>
 
                              <li>
-                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="">Contacts</a>
+                                <a className="text-white hover:text-teal-200 px-3 py-2 rounded-md text-sm font-medium" href="#Contact">Contacts</a>
                             </li>
                         </ul>
                     </div>

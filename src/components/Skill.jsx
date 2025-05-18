@@ -29,7 +29,7 @@ export default function Skill() {
      }
   return (
     <>
-      <div className="min-h-screen w-full bg-gradient-to-r from-white to-gray-50">
+      <div id="skills" className="min-h-screen w-full bg-gradient-to-r from-white to-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center mb-12">
                 <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-700 via-purple-500 to-teal-600 bg-clip-text text-transparent">My Skills</h2>

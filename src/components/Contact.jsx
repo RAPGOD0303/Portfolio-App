@@ -18,7 +18,7 @@ export default function Contact() {
 
     const handleSubmit = (e)=>{
         e.preventDefault();
-        const mailtoLink = `mailto:your-email@example.com?subject=Portfolio Contact: ${form.name}&body=Name: ${form.name}%0D%0AEmail: ${form.email}%0D%0A%0D%0AMessage:%0D%0A${form.message}`
+        const mailtoLink = `mailto:your-pimple0333@gmail.com?subject=Portfolio Contact: ${form.name}&body=Name: ${form.name}%0D%0AEmail: ${form.email}%0D%0A%0D%0AMessage:%0D%0A${form.message}`
         window.location.href=mailtoLink;
         setForm({name: " ", email: " ", message: " "});
     }

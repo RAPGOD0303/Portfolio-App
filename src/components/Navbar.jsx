@@ -60,16 +60,16 @@ export default function Navbar() {
                     <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300">About</a>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
-                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300">Skills</a>
+                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300" href="#skills">Skills</a>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
                     <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300">Tracer</a>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
-                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300">Projects</a>
+                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300" href="#projects">Projects</a>
                 </div>
                 <div className="px-2 pt-2 pb-3 space-y-2 sm:px-3">
-                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300">Contact</a>
+                    <a className="text-white hover:text-teal-400 block px-3 py-2 rounded-md transition-colors duration-300 " href="#Contact">Contact</a>
                 </div>
             </div>
         )}

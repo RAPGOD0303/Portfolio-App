@@ -1,4 +1,5 @@
 export default function About() {
+
   return (
     <>
       <div className="min-h-screen w-full bg-gradient-to-b from-white to-gray-50">
@@ -53,6 +54,25 @@ export default function About() {
                 teamwork skills.
               </p>
             </div>
+
+            <div className="p-6 bg-white rounded-xl shadow-xl transition-shadow duration-200">
+              <h3 className="text-2xl font-semibold mb-4">Tools & Technologies</h3>
+              <p className="text-lg text-gray-600">
+                Proficient in React, Tailwind CSS, Next.js, and TypeScript. Familiar with testing 
+                frameworks like Jest and Cypress. Comfortable using Git, GitHub, VS Code, Postman, 
+                and Chrome DevTools for debugging and development workflows.
+              </p>
+            </div>
+
+            <div className="p-6 bg-white rounded-xl shadow-xl transition-shadow duration-200">
+              <h3 className="text-2xl font-semibold mb-4">Soft Skills</h3>
+              <p className="text-lg text-gray-600">
+                Strong communicator with a proactive mindset. Collaborative team 
+                player who thrives in agile environments. Effective at time management, 
+                problem-solving, and delivering under tight deadlines.
+              </p>
+            </div>
+
           </div>
 
           {/* Professional Interest */}
@@ -62,33 +82,40 @@ export default function About() {
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
               <div className="space-y-3">
                 <h3 className="text-2xl text-indigo-700 font-semibold">Open Source Contribution</h3>
-                <p className=" text-lg text-gray-800">I am actively contributing to open source code software and project on github</p>
+                <p className=" text-lg text-gray-800">I am actively contributing to open source code software and project on github.</p>
               </div>
 
                <div className="space-y-3">
-                <h3 className="text-2xl text-teal-700 font-semibold">Open Source Contribution</h3>
-                <p className=" text-lg text-gray-800">I am actively contributing to open source code software and project on github</p>
+                <h3 className="text-2xl text-teal-700 font-semibold">Technical Blogging</h3>
+                <p className=" text-lg text-gray-800">I enjoy sharing knowledge through blog posts and tutorials on topics like React, CSS best practices, and web performance optimization.</p>
               </div>
 
                <div className="space-y-3">
-                <h3 className="text-2xl text-purple-700 font-semibold">Open Source Contribution</h3>
-                <p className=" text-lg text-gray-800">I am actively contributing to open source code software and project on github</p>
+                <h3 className="text-2xl text-purple-700 font-semibold">Community Engagement</h3>
+                <p className=" text-lg text-gray-800">I participate in developer communities like Dev.to, Stack Overflow, and Discord groups to help others and stay updated with industry trends.</p>
               </div>
 
                <div className="space-y-3">
-                <h3 className="text-2xl text-blue-700 font-semibold">Open Source Contribution</h3>
-                <p className=" text-lg text-gray-800">I am actively contributing to open source code software and project on github</p>
+                <h3 className="text-2xl text-blue-700 font-semibold">Mentoring & Coaching</h3>
+                <p className=" text-lg text-gray-800">I mentor junior developers and students by reviewing portfolios, giving coding tips, and offering career guidance through virtual meetups.</p>
               </div>
             </div>
           </div>
 
           {/* call to action */}
           <div className="bg-gradient-to-r from-indigo-700 via-purple-700 to-teal-700 p-12 py-12 px-5 text-center rounded-xl">
-            <h3 className="text-4xl text-white font-semibold mb-5">Continuous Learning</h3>
-            <p className="text-xl text-white mx-auto">
-              I am actively contributing to open source code software and project on github
-            </p> <br />
-            <a className="inline-block bg-white text-indigo-700 px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-colors duration-300">Get In touch</a>
+           <div className="text-center text-white">
+  <h2 className="text-3xl font-bold mb-2">Continuous Learning</h2>
+  <p className="mb-4">
+    I am actively contributing to open source code software and projects on GitHub.
+  </p>
+  <p className="italic text-sm mb-4">“The more I share, the more I learn.”</p>
+  <a className="inline-block bg-white text-indigo-700 px-8 py-3 rounded-xl font-semibold hover:opacity-90 transition-colors duration-300" href="#Contact">Get In touch</a>
+  <div className="mt-4 flex gap-4 justify-center">
+    <a href="https://github.com/RAPGOD0303" className="underline" target="_blank">Github</a>
+    <a href="https://www.linkedin.com/in/rajvardhan-pimple/" className="underline" target="_blank">LinkedIn</a>
+  </div>
+</div>
           </div>
         </div>
       </div>
